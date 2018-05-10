@@ -9,6 +9,7 @@
 	"scripts": {
 		"attach": "./bootstrap.sh attach",
 		"build": "mkdir -p ./theme && node ./build.js",
+		"deploy": "rm -rf ~/.vscode/extensions/dracula*/theme/* && mv theme/* ~/.vscode/extensions/dracula*/theme/",
 		"eject": "./bootstrap.sh eject",
 		"package": "vsce package -o ./bin/dracula.vsix",
 		"vscode:prepublish": "npm run build"
