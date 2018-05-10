@@ -5,48 +5,48 @@ maintainers:
 semanticClass: theme.dracula
 dracula:
   base:
-    - &BG        '#282A36'
-    - &FG        '#F8F8F2'
-    - &SELECTION '#44475A'
-    - &CYAN      '#8BE9FD'
-    - &GREEN     '#50FA7B'
-    - &ORANGE    '#FFB86C'
-    - &PINK      '#FF79C6'
-    - &PURPLE    '#BD93F9'
-    - &RED       '#FF5555'
-    - &YELLOW    '#F1FA8C'
+    - &BG        '#282828'
+    - &FG        '#ebdbb2'
+    - &SELECTION '#504945'
+    - &CYAN      '#83a598'
+    - &GREEN     '#b8bb26'
+    - &ORANGE    '#fe8019'
+    - &PINK      '#fb4934'
+    - &PURPLE    '#d3869b'
+    - &RED       '#cc241d'
+    - &YELLOW    '#fabd2f'
   ansi:
-    - &COLOR0  '#44475A'
-    - &COLOR1  '#DE312B'
-    - &COLOR2  '#2FD651'
-    - &COLOR3  '#D0D662'
-    - &COLOR4  '#9C6FCF'
-    - &COLOR5  '#DE559C'
-    - &COLOR6  '#6AC5D3'
-    - &COLOR7  '#D7D4C8'
-    - &COLOR8  '#656B84'
-    - &COLOR9  '#FF5555'
-    - &COLOR10 '#50FA7B'
-    - &COLOR11 '#F1FA8C'
-    - &COLOR12 '#BD93F9'
-    - &COLOR13 '#FF79C6'
-    - &COLOR14 '#8BE9FD'
-    - &COLOR15 '#F8F8F2'
+    - &COLOR0  '#282828'
+    - &COLOR1  '#cc241d'
+    - &COLOR2  '#98971a'
+    - &COLOR3  '#d79921'
+    - &COLOR4  '#458588'
+    - &COLOR5  '#b16286'
+    - &COLOR6  '#689d6a'
+    - &COLOR7  '#a89984'
+    - &COLOR8  '#928374'
+    - &COLOR9  '#fb4934'
+    - &COLOR10 '#b8bb26'
+    - &COLOR11 '#fabd2f'
+    - &COLOR12 '#83a598'
+    - &COLOR13 '#d3869b'
+    - &COLOR14 '#8ec07c'
+    - &COLOR15 '#ebdbb2'
   brightOther:
     # Temporary (awaiting fix)
-    - &TEMP_QUOTES          '#E9F284'
-    - &TEMP_PROPERTY_QUOTES '#8BE9FE'
+    - &TEMP_QUOTES          '#b57614'
+    - &TEMP_PROPERTY_QUOTES '#458588'
   other:
-    - &COMMENT       '#6272A4'
-    - &LineHighlight '#44475A75'
-    - &NonText       '#424450'
-    - &WHITE         '#FFFFFF'
-    - &TAB_DROP_BG   '#44475A70'
+    - &COMMENT       '#665c54'
+    - &LineHighlight '#50494575'
+    - &NonText       '#665c54'
+    - &WHITE         '#ffffff'
+    - &TAB_DROP_BG   '#50494570'
     # UI Variants
-    - &BGLighter     '#424450'
-    - &BGLight       '#343746' # HSV (230   , 25.71, 27.45)
-    - &BGDark        '#21222C' # HSV (234.55, 25   , 17.25)
-    - &BGDarker      '#191A21' # HSV (234.55, 25   , 13   )
+    - &BGLighter     '#504945'
+    - &BGLight       '#3c3836' # HSV (230   , 25.71, 27.45)
+    - &BGDark        '#282828' # HSV (234.55, 25   , 17.25)
+    - &BGDarker      '#1d2021' # HSV (234.55, 25   , 13   )
 
 # User Interface (more info: https://code.visualstudio.com/docs/getstarted/theme-color-reference)
 colors:
@@ -150,7 +150,7 @@ colors:
 
   # Editor Group & Tabs
   editorGroup.background:                                                       # Background color of an editor group. The background color shows up when dragging editor groups around
-  editorGroup.border: *PURPLE                                                   # Color to separate multiple editor groups from each other
+  editorGroup.border: *COLOR1                                                   # Color to separate multiple editor groups from each other
   editorGroup.dropBackground: *TAB_DROP_BG                                      # Background color when dragging editors around
   editorGroupHeader.noTabsBackground:                                           # Background color of the editor group title header when Tabs are disabled
   editorGroupHeader.tabsBackground: *BGDarker                                   # Background color of the Tabs container
