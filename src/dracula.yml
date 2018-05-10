@@ -39,7 +39,7 @@ dracula:
   other:
     - &COMMENT       '#665c54'
     - &LineHighlight '#50494575'
-    - &NonText       '#665c54'
+    - &NonText       '#504945'
     - &WHITE         '#ffffff'
     - &TAB_DROP_BG   '#50494570'
     # UI Variants
